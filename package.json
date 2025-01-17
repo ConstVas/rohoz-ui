@@ -6,6 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
+    "pstart": "ng serve --open --host=0.0.0.0 --port 4200 --disable-host-check",
     "test": "ng test",
     "serve:ssr:rohoz-ui": "node dist/rohoz-ui/server/server.mjs"
   },
@@ -22,7 +23,7 @@
     "@angular/router": "^17.2.0",
     "@angular/ssr": "^17.2.1",
     "express": "^4.18.2",
-    "rxjs": "~7.8.0",
+    "rxjs": "^7.8.1",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.3"
   },
