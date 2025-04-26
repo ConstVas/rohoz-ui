@@ -8,7 +8,10 @@
     "watch": "ng build --watch --configuration development",
     "pstart": "ng serve --open --host=0.0.0.0 --port 4200 --disable-host-check",
     "test": "ng test",
-    "serve:ssr:rohoz-ui": "node dist/rohoz-ui/server/server.mjs"
+    "config:list": "npm config list",
+    "update": "ng update @angular/core@18 @angular/cli@18 --verbose",
+    "serve:ssr:rohoz-ui": "node dist/rohoz-ui/server/server.mjs",
+    "clean": "ng cache clean"
   },
   "private": true,
   "dependencies": {
