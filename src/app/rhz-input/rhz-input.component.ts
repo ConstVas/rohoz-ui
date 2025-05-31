@@ -1,5 +1,4 @@
 import { Component, ElementRef, EventEmitter, Input, Output, ViewChild } from '@angular/core';
-import { Observable } from 'rxjs';
 
 @Component({
   selector: 'rhz-input',
